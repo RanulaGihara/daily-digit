@@ -21,3 +21,12 @@ function handleObjs ()  {
 };
 
 //In JavaScript, functions declared with const or let are not hoisted the same way as function declarations (using the function keyword).
+
+//Q3: Given the array: const fruits = ['apple', 'banana', 'orange']; Write a function to remove the second item from the array without mutating the original array.
+
+const fruits = ['apple', 'banana', 'orange'];
+removeSecondItem(fruits);
+
+function removeSecondItem(fruits) {
+    return [...fruits.slice(0,1), ...fruits.slice(2)];
+}
