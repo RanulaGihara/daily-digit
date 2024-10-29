@@ -19,3 +19,4 @@ let d = 30;
 console.log(c && d);
 
 //--------------------If the first operand is "falsy," JavaScript stops evaluating and returns that "falsy" value. This behavior is called "short-circuiting."
+// Conditional Rendering in User Interfaces
