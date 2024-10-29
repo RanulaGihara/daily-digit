@@ -10,33 +10,12 @@ console.log(name2);
 
 
 
-
 // || - Logical OR
 let a = 0;
 let b = 20;
 console.log(a || b);
 
 // ----------------The || operator checks if the value on the left is "falsy" (like null, undefined, 0, false, NaN, or ""). If it is, it returns the right-side value; otherwise, it returns the left-side value. This is useful for setting defaults if a variable might be undefined or another falsy value.---------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
